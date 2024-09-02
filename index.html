@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="css/diseño.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <h1>Shelsy Sofia Lobos Perez</h1>
+            <p>Desarrolladora Web</p>
+            <figure>
+                <img src="img/Captura.PNG" alt="">
+              </figure>
+            <nav>
+                <ul>
+                    <li><a href="#about">Sobre Mí</a></li>
+                    <li><a href="#resume">Currículum</a></li>
+                    <li><a href="#projects">Proyectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>Sobre Mí</h2>
+        <p>Estudiante de computacion en el Instituto Emiliani Somascos en proceso de obtener un titulo. </p>
+    </section>
+
+    <section id="resume">
+        <h2>Currículum</h2>
+        <div class="resume-container">
+            <div class="experience">
+                <h3>Experiencia Laboral</h3>
+                <div class="job">
+                    <h4>Arrendadora Centroamericana S.A. - ARCESA</h4>
+                    <p><strong>Area de Negocios</strong> | 23 de Octubre de 2023 </p>
+                    <ul>
+                        <li>Orden de contratos y documentos importantes</li>
+                        <li>Realizacion de Formularios Electrónicos de Información del Cliente.
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="education">
+                <h3>Educación Basicos</h3>
+                <div class="education-item">
+                    <h4>Colegio Mixto Primero de Mayo</h4>
+                    <p><strong>Terminada</strong> | 2022 </p>
+                </div>       
+            </div>
+            <div class="education">
+                <h3>Educación</h3>
+                <div class="education-item">
+                    <h4>Instituto Emiliani Somascos</h4>
+                    <p><strong>Aun en proceso</strong> | 2023 - en curso </p>
+                </div>       
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h4>Traductor de Kaqchikel</h4>
+                <p>Aplicacion hecha con C# y base de datos Access, una aplicacion de kaqchikel para fomentar el aprendizaje y la enseñanza de este idioma .</p>
+            </div>
+            <div class="project">
+                <h4>EduQuest</h4>
+                <p>Pagina web centrada en la creacion de examenes para distintos, grados, secciones, materias, especialidades, etc...Creada con Astro, Base de Datos MySQL, entre otras.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contacto</h2>
+        <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Shelsy Sofia Lobos Perez. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

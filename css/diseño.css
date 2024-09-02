@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #cfa6eb;
+}
+
+header figure img {
+    border-radius: 90px;
+    border: solid #e3dafd;
+    height: 175px;
+    width: 175px;
+    position: relative;
+  }
+
+header {
+    background-color: #fae7ff;
+    color: #070606;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.header-container p {
+    margin: 5px 0;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #090808;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.resume-container, .projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.resume-container > div, .project {
+    width: 48%;
+    margin-bottom: 20px;
+}
+
+.job, .education-item, .project {
+    background: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.project a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007BFF;
+    border: 1px solid #007BFF;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+.project a:hover {
+    background: #007BFF;
+    color: #fff;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+form input, form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
